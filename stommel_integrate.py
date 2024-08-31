@@ -40,7 +40,7 @@ def noise(u, t) :
     return np.array([[0, 0], [0, sigma]])
 
 
-
+#résolution pour une seule valeur de sigma
 res = sd.itoint(stommel_uncoupled, noise, u_0, tspan, np.random) #résolution des équations avec la méthode ITO-Euler
 T = [T for [T, S] in res]
 S = [S for [T, S] in res]
