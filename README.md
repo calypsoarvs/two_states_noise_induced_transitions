@@ -22,7 +22,7 @@ Tracer de trajectoire du système.
 Calcul du nombre de transitions entre états compétitifs et du temps moyen passé dans un état. 
 Fit du temps moyen afin de retrouver des valeurs caractéristiques du système.
 
-Le fichier *"bistable_model_dv"* reprend exactement la même démarche que le précédent à l'exception cette fois que c'est la profondeur du double puits de potentiel qui varie. Rien dans le code des fonctions de comptage et de tracer ne diffère à l'exception que l'on y calcule $\DeltaV$ lorsqu'on fait varier $\alpha$ du potentiel dans la fonction *calcul_taumoy*. 
+Le fichier *"bistable_model_dv"* reprend exactement la même démarche que le précédent à l'exception cette fois que c'est la profondeur du double puits de potentiel qui varie. Rien dans le code des fonctions de comptage et de tracer ne diffère à l'exception que l'on y calcule $\Delta V$ lorsqu'on fait varier $\alpha$ du potentiel dans la fonction *calcul_taumoy*. 
 
 **PARTIE 2 : Two box model de Stommel bistable**
 
